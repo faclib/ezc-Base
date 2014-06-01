@@ -6,7 +6,7 @@
         "php": ">=5.3.0"
     },
     "suggest": {
-        "pear-components.ez.no/base": "1.8",
+        "pear-components.ez.no/base": "1.8"
     },
     "autoload": {
         "classmap": [ "src/" ]

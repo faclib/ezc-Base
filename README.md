@@ -1,2 +1,5 @@
+eZ Components / Base
+======================
+
 The Base package provides the basic infrastructure that all packages rely on.
 Therefore every component relies on this package.
