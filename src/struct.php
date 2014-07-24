@@ -39,4 +39,3 @@ class ezcBaseStruct
         throw new ezcBasePropertyNotFoundException( $name );
     }
 }
-?>

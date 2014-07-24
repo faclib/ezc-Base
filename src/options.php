@@ -171,4 +171,3 @@ abstract class ezcBaseOptions implements ArrayAccess
         $this->__set( $propertyName, null );
     }
 }
-?>
