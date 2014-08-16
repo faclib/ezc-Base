@@ -39,4 +39,3 @@ class myProgressFinder
 
 $files = myProgressFinder::findRecursive( dirname( __FILE__ ) );
 var_dump( $files );
-?>

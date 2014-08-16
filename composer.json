@@ -1,6 +1,7 @@
 {
     "name": "fobiaweb/ezc-base",
     "type": "library",
+    "description" :"The Base package provides the basic infrastructure that all packages rely on. Therefore every component relies on this package.",
     "homepage": "http://ezcomponents.org",
     "require": {
         "php": ">=5.3.0"

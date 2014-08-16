@@ -2,10 +2,8 @@
 require 'tutorial_autoload.php';
 
 $data = ezcBaseFile::findRecursive(
-	"/dat/dev/ezcomponents",
-	array( '@src/.*_autoload.php$@' ),
-	array( '@/autoload/@' )
+	dirname(__DIR__) ,
+	array( '@repos/.*_autoload.php$@' ),
+	array( '@/my_.*@' )
 );
 var_dump( $data );
-
-?>
