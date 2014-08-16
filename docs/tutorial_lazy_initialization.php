@@ -34,5 +34,3 @@ ezcBaseInit::setCallback( 'customKey', 'customSingletonConfiguration' );
 // Configure on first initilization
 $object = customSingleton::getInstance();
 var_dump( $object->value );
-
-?>
